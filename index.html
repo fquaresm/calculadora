@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="stilo.css">
+</head>
+<body>
+    <main>
+        <div class="conteiner">
+            <div class="comeco">
+                <p id="tela">00</p>
+            </div>
+            <ul>
+                <li><button class="btn_num" data-op="7">7</button></li>
+                <li><button class="btn_num" data-op="8">8</button></li>
+                <li><button class="btn_num" data-op="9">9</button></li>
+                <li><button id="apagar" style="padding-right: 12px;">c</button></li>
+            </ul>
+            <ul>
+                <li><button class="btn_num" data-op="4">4</button></li>
+                <li><button class="btn_num" data-op="5">5</button></li>
+                <li><button class="btn_num" data-op="6">6</button></li>
+                <li><button class="btn_sinal" data-op="/" style="padding-right: 12.8px">/</button></li>
+            </ul>
+            <ul>
+                <li><button class="btn_num" data-op="1">1</button></li>
+                <li><button class="btn_num" data-op="2">2</button></li>
+                <li><button class="btn_num" data-op="3">3</button></li>
+                <li><button class="btn_sinal" data-op="*" style="padding-right: 10px">x</button></li>
+            </ul>
+            <ul>
+                <li><button class="btn_num" data-op="0">0</button></li>
+                <li><button class="btn_sinal"data-op="." style="padding-right: 18px">.</button></li>
+                <li><button class="btn_sinal" data-op="+" >+</button></li>
+                <li><button class="btn_sinal" data-op="-" style="padding-right: 14px">-</button></li>
+            </ul>
+            <button class="igual" id="igual">=</button>
+        <div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
